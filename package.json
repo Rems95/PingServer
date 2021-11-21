@@ -1,0 +1,26 @@
+{
+  "name": "server-ping",
+  "version": "1.0.0",
+  "description": "Game server",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rems95/Game-Server.git"
+  },
+  "author": "Rems",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.19.0",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^2.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Rems95/Game-Server/issues"
+  },
+  "homepage": "https://github.com/Rems95/Game-Server#readme"
+}
