@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Game server",
   "main": "index.js",
-  "scripts": {
-    "test": "nodemon ./server/index.js"
+ "scripts": {
+    "test": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
